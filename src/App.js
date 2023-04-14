@@ -1,11 +1,11 @@
-import Http from "./Http/Http";
+import Hooks from "./Hooks/Hooks";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "animate.css/animate.min.css";
 const App = ()=>{
   const design = (
     <>
-      <Http />
+      <Hooks />
     </>
   );
   return design;
